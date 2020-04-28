@@ -1,0 +1,45 @@
+.cardContainer {
+    width: 180px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardContainer .img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+
+.cardBackdrop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+    transition: 0.3s;
+    
+}
+
+.cardBackdrop:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.cardContainer:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
